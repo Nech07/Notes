@@ -23,6 +23,18 @@ This note defines the repeatable workflows for maintaining the vault.
 6. Run `qmd update` so keyword search sees the new notes.
 7. Run `qmd embed` if semantic search should include the new material immediately.
 
+### Auto-Ingest
+
+- A user-level `systemd` watcher is installed for this vault:
+  - `notes-wiki-auto-ingest.path`
+  - `notes-wiki-auto-ingest.service`
+- When a new note or source file appears in `raw/sources/`, the service:
+  - waits for the file to finish writing
+  - opens markdown notes in Obsidian
+  - runs `editor:download-attachments`
+  - ingests the source through Codex using the `wiki-ingest` skill
+- State and logs live under `~/.local/state/notes-wiki-auto-ingest/`.
+
 ## Query
 
 1. Start with [[index]].

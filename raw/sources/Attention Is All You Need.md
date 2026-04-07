@@ -60,7 +60,7 @@ To the best of our knowledge, however, the Transformer is the first transduction
 
 ## 3 Model Architecture
 
-![[../assets/ModalNet-21.png|Refer to caption]]
+![Refer to caption](https://arxiv.org/html/1706.03762v7/Figures/ModalNet-21.png)
 
 Figure 1: The Transformer - model architecture.
 
@@ -98,7 +98,7 @@ While for small values of $d_{k}$ the two mechanisms perform similarly, additive
 
 #### 3.2.2 Multi-Head Attention
 
-![[../assets/ModalNet-19.png|Refer to caption]]
+![Refer to caption](https://arxiv.org/html/1706.03762v7/Figures/ModalNet-19.png)
 
 Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel.
 
@@ -299,15 +299,15 @@ We are grateful to Nal Kalchbrenner and Stephan Gouws for their fruitful comment
 
 ## Attention Visualizations
 
-![[../assets/x1.png|Refer to caption]]
+![Refer to caption](https://arxiv.org/html/1706.03762v7/x1.png)
 
 Figure 3: An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb ‘making’, completing the phrase ‘making…more difficult’. Attentions here shown only for the word ‘making’. Different colors represent different heads. Best viewed in color.
 
-![[../assets/x2.png|Refer to caption]]
+![Refer to caption](https://arxiv.org/html/1706.03762v7/x2.png)
 
 Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word ‘its’ for attention heads 5 and 6. Note that the attentions are very sharp for this word.
 
-![[../assets/x4.png|Refer to caption]]
+![Refer to caption](https://arxiv.org/html/1706.03762v7/x4.png)
 
 Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks.
 
