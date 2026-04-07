@@ -2,14 +2,15 @@
 
 This vault follows a three-layer model derived from the LLM wiki pattern:
 
-- `raw/` is the immutable source-of-truth layer.
+- `raw/` is the source-of-truth layer.
 - `wiki/` is the maintained knowledge layer.
 - `AGENTS.md` plus the operational notes define the workflow contract.
 
 ## Ownership Rules
 
 - The agent may read everything in the vault.
-- The agent must never modify files under `raw/`.
+- The agent must not modify archived raw source files such as PDFs, clips, transcripts, or exports under `raw/`.
+- Exception: markdown notes under `raw/sources/` may be normalized by the auto-ingest workflow so remote asset URLs are downloaded into `raw/assets/` and rewritten to local paths before wiki ingestion.
 - The agent may create and update notes under `wiki/`, `templates/`, `index.md`, `log.md`, and the operational docs when the workflow itself changes.
 - Durable answers belong in the vault. If a query produces something worth keeping, file it as a note instead of leaving it in chat.
 

@@ -16,7 +16,7 @@ This is a controlled test note for the vault watcher.
 
 The note includes one remote image so `editor:download-attachments` has real work to do.
 
-![](https://httpbin.org/image/png)
+![[../assets/Image.png]]
 
 If the automation works, the watcher should:
 

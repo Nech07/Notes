@@ -22,5 +22,6 @@ This area collects the topic and theory pages that become the semantic backbone 
 
 ## Current Pages
 
-- No concept pages yet.
-
+- [[wiki/concepts/Auto-Ingest Workflow|Auto-Ingest Workflow]] - Pipeline for turning new raw sources into maintained wiki notes.
+- [[wiki/concepts/Direct Preference Optimization|Direct Preference Optimization]] - Preference-learning method that replaces PPO-style RLHF with a direct policy objective.
+- [[wiki/concepts/Group Relative Policy Optimization|Group Relative Policy Optimization]] - Critic-free policy optimization that uses relative scores within sampled response groups.

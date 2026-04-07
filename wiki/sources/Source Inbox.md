@@ -21,5 +21,6 @@ Use this area for source summary notes created from files in `raw/sources/` or e
 
 ## Seed Notes
 
-- No source summaries yet.
-
+- [[wiki/sources/Auto Ingest Test Note|Auto Ingest Test Note]] - Controlled fixture for validating raw-note auto-ingest and attachment download.
+- [[wiki/sources/DeepSeekMath Pushing the Limits of Mathematical Reasoning in Open Language Models|DeepSeekMath Pushing the Limits of Mathematical Reasoning in Open Language Models]] - Source summary for DeepSeekMath's web-mined math corpus, GRPO, and math-RL findings.
+- [[wiki/sources/Direct Preference Optimization Your Language Model is Secretly a Reward Model|Direct Preference Optimization Your Language Model is Secretly a Reward Model]] - Source summary for the original DPO paper and its implicit-reward interpretation.

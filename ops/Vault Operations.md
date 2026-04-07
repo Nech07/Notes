@@ -32,12 +32,13 @@ This note defines the repeatable workflows for maintaining the vault.
   - `notes-wiki-auto-ingest-drain.service`
   - `notes-wiki-auto-ingest-drain.timer`
 - When a new note or source file appears in `raw/sources/`, the watcher queues it immediately.
-- The drain worker later processes queued items only when the already-open `Notes` vault is reachable through the Obsidian CLI.
+- The drain worker later processes queued items directly from the filesystem. It does not depend on the Obsidian CLI.
 - For markdown notes, the worker:
-  - opens the note in the `Notes` vault
-  - runs `editor:download-attachments`
-  - waits for `raw/assets/` to settle
+  - reads the note from `raw/sources/`
+  - downloads remote image or attachment URLs into `raw/assets/`
+  - rewrites the markdown note so those references point at the local asset paths
   - ingests the source through Codex using the `wiki-ingest` skill
+- PDFs and other non-markdown sources remain unchanged in `raw/`.
 - State and logs live under `~/.local/state/notes-wiki-auto-ingest/`.
 - Health checks are available through:
   - `notes-wiki-auto-ingest check`
