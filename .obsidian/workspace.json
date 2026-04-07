@@ -6,6 +6,7 @@
       {
         "id": "50ad86b2b2bbb0ce",
         "type": "tabs",
+        "dimension": 42.79026217228464,
         "children": [
           {
             "id": "0b59dc24f6a36ae3",
@@ -26,6 +27,7 @@
       {
         "id": "cb89c403d9d7520e",
         "type": "tabs",
+        "dimension": 57.20973782771536,
         "children": [
           {
             "id": "5d1a3d31e37416ef",
@@ -33,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ops/Vault Operations.md",
+                "file": "raw/sources/Attention Is All You Need.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vault Operations"
+              "title": "Attention Is All You Need"
             }
           }
         ]
@@ -98,7 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 586.5055847167969
   },
   "right": {
     "id": "ce7390c41b10564e",
@@ -191,18 +193,28 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "ops/Vault Operations.md"
+                "file": "Clippings/Self-Distilled RLVR.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
+          },
+          {
+            "id": "577fac1744ca4386",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,17 +225,32 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "marp-slides:Show Slide Preview": false
+      "marp-slides:Show Slide Preview": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "5d1a3d31e37416ef",
   "lastOpenFiles": [
+    "Clippings/Self-Distilled RLVR.md",
+    "raw/assets/x4.png",
+    "raw/assets/x2.png",
+    "raw/assets/x1.png",
+    "raw/assets/ModalNet-21.png",
+    "raw/assets/ModalNet-19.png",
+    "raw/sources/Attention Is All You Need.md",
     "index.md",
-    "templates/Entity Template.md",
+    "log.md",
+    "~/Notes/raw/sources/Attention Is All You Need.md",
+    "~/Notes/raw/sources",
+    "~/Notes/raw",
+    "~/Notes",
+    "~",
+    "Clippings/Test-Time Scaling Makes Overtraining Compute-Optimal.md",
     "ops/Vault Operations.md",
+    "Clippings",
+    "templates/Entity Template.md",
     "AGENTS.md",
     "Home.md",
-    "log.md",
     "Welcome.md"
   ]
 }

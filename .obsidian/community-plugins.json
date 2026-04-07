@@ -1,5 +1,7 @@
 [
   "marp-slides",
   "dataview",
-  "open-in-terminal"
+  "open-in-terminal",
+  "obsidian-hider",
+  "obsidian-git"
 ]
