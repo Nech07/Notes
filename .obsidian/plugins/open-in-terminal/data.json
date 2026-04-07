@@ -1,0 +1,14 @@
+{
+  "terminalApp": {
+    "linux": "x-terminal-emulator"
+  },
+  "enableClaude": false,
+  "enableCodex": true,
+  "enableCursor": false,
+  "enableGemini": false,
+  "enableOpencode": false,
+  "enableWslOnWindows": false,
+  "enableGitCommitPush": true,
+  "enableGitPull": false,
+  "defaultCommitMessage": "update"
+}
