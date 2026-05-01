@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/sources/DeepSeekMath Pushing the Limits of Mathematical Reasoning in Open Language Models.md",
+                "file": "templates/Concept Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DeepSeekMath Pushing the Limits of Mathematical Reasoning in Open Language Models"
+              "title": "Concept Template"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5055847167969
+    "width": 437.5
   },
   "right": {
     "id": "ce7390c41b10564e",
@@ -209,6 +209,7 @@
   },
   "active": "ddd328e49bc66a89",
   "lastOpenFiles": [
+    "raw/sources/DeepSeekMath Pushing the Limits of Mathematical Reasoning in Open Language Models.md",
     "ops/verify-auto-ingest-direct-assets.sh",
     "wiki/entities/DeepSeekMath.md",
     "wiki/concepts/Direct Preference Optimization.md",
@@ -222,7 +223,6 @@
     "wiki/sources/Direct Preference Optimization Your Language Model is Secretly a Reward Model.md",
     "wiki/concepts/Concept Map.md",
     "log.md",
-    "raw/sources/DeepSeekMath Pushing the Limits of Mathematical Reasoning in Open Language Models.md",
     "index.md",
     "wiki/entities/Direct Preference Optimization Your Language Model is Secretly a Reward Model.md",
     "wiki/outputs/Output Gallery.md",
